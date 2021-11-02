@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    text-decoration-line: underline;
+    font-weight: bold;
+    text-decoration-color: red;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menubar-images {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#image1 {
+    width: 650px;
+    height: 400px;
+    margin: 5px 10px;
+}
+
+#image2 {
+    width: 650px;
+    height: 400px;
+    margin: 5px 10px;
+}
+
+#beef {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 30px;
+    font-style: italic;
+    padding: 25px 15px 25px 15px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 35px;
+}
+
+p span {
+    font-style: italic;
+}
+
+span#first {
+    font-style: normal;
+    color: red;
+}
+
+span#last {
+    text-decoration: underline;
+}
+
+ul.unordered {
+    font-size: 25px;
+    list-style-type: circle;
+}
+
+ol.ordered {
+    font-size: 25px;
+    list-style-type: lower-roman;
+}
+
+#beef-ingredients {
+    background-color: burlywood;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 10px 10px;
+}
+
+#beef-recipe1 {
+    background-color: burlywood;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 0 17px 0 0;
+}
+
+#pilau {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#pilau-ingredients {
+    background-color: burlywood;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 0 0 10px 10px;
+}
+
+#pilau-recipe1 {
+    background-color: burlywood;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 0 17px 0 0;
+}
+
+@media all and (max-width: 480px) {
+    body {
+        background-color: black;
+    }
+    h2 {
+        color: white;
+    }
+    #image1 {
+        height: auto;
+        width: 100%;
+        max-width: 320px;
+    }
+    #image2 {
+        display: none;
+    }
+    #beef-recipe1 {
+        margin-left: 9px;
+    }
+    #pilau-ingredients {
+        margin-right: 5px;
+    }
+    #pilau-recipe1 {
+        margin: 0 9px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    #image1 {
+        height: auto;
+        width: 100%;
+        max-width: 600px;
+    }
+    #image2 {
+        height: auto;
+        width: 100%;
+        max-width: 600px;
+    }
+    #beef-recipe1 {
+        margin-left: 9px;
+    }
+    #pilau-recipe1 {
+        margin-left: 9px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #beef-recipe1 {
+        margin-left: 9px;
+    }
+    #pilau-recipe1 {
+        margin-left: 9px;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    #beef-recipe1 {
+        margin-left: 9px;
+    }
+}
